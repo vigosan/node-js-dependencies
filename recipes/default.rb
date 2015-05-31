@@ -1,5 +1,5 @@
 nodejs_npm "bower"
-nodejs_npm "grunt"
+nodejs_npm "grunt-cli"
 nodejs_npm "ember-cli"
 nodejs_npm "watchman"
 nodejs_npm "phantomjs"
