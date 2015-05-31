@@ -1,4 +1,4 @@
-node-js-dependencies Cookbook
+nodejs-dependencies Cookbook
 =============================
 Installs packages commonly required by node-js
 
@@ -6,13 +6,13 @@ Usage
 -----
 #### node-js-dependencies::default
 
-Just include `node-js-dependencies` in your node's `run_list`:
+Just include `nodejs-dependencies` in your node's `run_list`:
 
 ```json
 {
   "name":"my_node",
   "run_list": [
-    "recipe[node-js-dependencies]"
+    "recipe[nodejs-dependencies]"
   ]
 }
 ```
