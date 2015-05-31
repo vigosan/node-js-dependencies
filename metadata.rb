@@ -1,4 +1,4 @@
-name             'node-js-dependencies'
+name             'nodejs-dependencies'
 maintainer       'Vicent Gozalbes'
 maintainer_email 'vigosan@gmail.com'
 license          'All rights reserved'
