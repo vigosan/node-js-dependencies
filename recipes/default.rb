@@ -1,4 +1,11 @@
-%w[bower grunt-cli ember-cli watchman phantomjs].each do |pkg|
+%w(
+  bower
+  grunt-cli
+  ember-cli
+  watchman
+  phantomjs
+  express
+).each do |pkg|
   nodejs_npm pkg do
     options ["--global"]
   end
