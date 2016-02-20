@@ -5,6 +5,7 @@
   watchman
   phantomjs
   express
+  gulp
 ).each do |pkg|
   nodejs_npm pkg do
     options ["--global"]
