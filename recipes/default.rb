@@ -1,10 +1,8 @@
 %w(
   bower
   grunt-cli
-  ember-cli
   watchman
   phantomjs
-  express
   gulp
 ).each do |pkg|
   nodejs_npm pkg do
