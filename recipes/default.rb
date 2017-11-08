@@ -1,4 +1,5 @@
 %w(
+  phantomjs
   yarn
 ).each do |pkg|
   nodejs_npm pkg do
