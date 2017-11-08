@@ -4,6 +4,6 @@ maintainer_email 'vigosan@gmail.com'
 license          'All rights reserved'
 description      'Installs packages commonly used by node-js'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
-version          '0.1.6'
+version          '0.1.7'
 
 depends          'nodejs', '~> 2.4.4'
